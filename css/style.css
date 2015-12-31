@@ -18,6 +18,7 @@ h1 {
     color: #2980b9;
     text-align: center;
     font-family: 'Chelsea Market', cursive;
+    padding-left: 19%;
 }
 
 h2 {
@@ -25,6 +26,7 @@ h2 {
     text-align: center;
     font-size: 15px;
     font-family: 'Chelsea Market', cursive;
+    padding-top: 10px;
 }
 
 #row {
@@ -51,7 +53,6 @@ td.redcell {
     margin-bottom: 1px;
     height: 40px;
     border-radius: 5px;
-    position: fixed;
     width: 514px;
     margin-top: 500px;
     background-color: #34495e;
@@ -59,8 +60,7 @@ td.redcell {
 
 #main {
     margin-right: 0 auto;
-    padding-left: 31%;
-    position: fixed;
+    padding-left: 30%;
 }
 
 #checker-white {
@@ -75,24 +75,28 @@ td.redcell {
     -khtml-border-radius: 25px;
     border-radius: 25px;
 }
-h3{
-	  color: #2980b9;
+
+h3 {
+    color: #2980b9;
     text-align: center;
     font-size: 15px;
     font-family: 'Chelsea Market', cursive;
     padding-top: 11px;
 }
-i:hover{
-	-webkit-transition:0.4s all ease-in-out;
-	-mozkit-transition:0.4s all ease-in-out;
-	-transition:0.4s all ease-in-out;
-	color: #4aa3df;
+
+i:hover {
+    -webkit-transition: 0.4s all ease-in-out;
+    -mozkit-transition: 0.4s all ease-in-out;
+    -transition: 0.4s all ease-in-out;
+    color: #4aa3df;
 }
-i{
-	-webkit-transition:0.4s all ease-in-out;
-	-mozkit-transition:0.4s all ease-in-out;
-	-transition:0.4s all ease-in-out;
+
+i {
+    -webkit-transition: 0.4s all ease-in-out;
+    -mozkit-transition: 0.4s all ease-in-out;
+    -transition: 0.4s all ease-in-out;
 }
+
 #king-white {
     margin-left: auto;
     margin-right: auto;
@@ -134,4 +138,74 @@ td.blackcell {
     -webkit-border-radius: 25px;
     -khtml-border-radius: 25px;
     border-radius: 25px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding-top: 62px;
+    padding-right: 20px;
+    border-radius: 2px;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown button {
+    background: #FF6223;
+    color: #FFFFFF;
+    border: none;
+    margin: 0;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 3px;
+}
+
+.dropdown a {
+    display: block;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    background: #CCCCCC;
+    color: #333333;
+    width: 178px;
+}
+
+.dropdown a:hover {
+    background: #BBBBBB;
+}
+
+h4 {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Chelsea Market', cursive;
+    margin: 0 auto;
 }
